@@ -1,0 +1,80 @@
+/* attribute:value; Last one is most important. Use a dot with class.*/
+
+body{
+    background-color:rgb(223, 219, 215);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.common{
+    background-color:whitesmoke;
+    border: 2px solid black;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 200px;
+    bottom: 25px;
+    z-index: 1;
+    padding-top: 20px;
+}
+
+.mainbody{
+    top: 114px;
+    left: 214px;
+    right: 214px;
+    bottom: 25px;
+}
+
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 200px;
+    bottom: 25px;
+    padding-top: 10px;
+    color: rgb(6, 6, 122);
+    text-align: center;
+}
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color:black;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 2;
+}
+.subheader{
+    float:left;
+}
+/* .homebg { 
+    background-image: src="../assets/img/Americanflag.jpeg";
+    background-repeat: repeat-x;
+}*/
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ol{
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{
+    font-size: 15px;
+    font-weight: normal;
+}
