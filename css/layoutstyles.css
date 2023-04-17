@@ -1,6 +1,6 @@
 /* attribute:value; Last one is most important. Use a dot with class.*/
 
-.body{
+body{
     background-color:rgb(223, 219, 215);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
